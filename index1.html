@@ -123,43 +123,59 @@
             </div>
         </section>  
 
-        <div id="openModal" class="modal">
-            <div class="modal-dialog">
+        <form action="send.php" method="post" id="form">
+            <div id="openModal" class="modal">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <a class="logo1"><img class="IMG-LOGO" src="./img/animal.png"/>TOP CRUIS</a>
+                        <a href="#close" title="Close" class="close">×</a>
+                    </div>
+                    <h3 class="modal-title">Заявление на бронь</h3>
+                    <div class="modal-body">    
+                        <ul>
+                            <p><b>Фамилия:</b><br>
+                                <input name="fam" type="text" style="border: 1px solid black;" autocomplete="OFF" value="Фамилия" onFocus="if(this.value=='Фамилия')this.value=''; " onBlur="if(this.value=='')this.value='Фамилия';" data-required="true" />
+                            </p>
+                            <p><b>Имя:</b><br>
+                                <input name="name" type="text" style="border: 1px solid black;" autocomplete="OFF" value="Имя" onFocus="if(this.value=='Имя')this.value=''; " onBlur="if(this.value=='')this.value='Имя';" data-required="true" />
+                            </p>
+                            <p><b>Отчество:</b><br>
+                                <input name="otch" class="telefon" type="text" style="border: 1px solid black;"autocomplete="OFF" value="Отчество" onFocus="if(this.value=='Отчество')this.value=''; " onBlur="if(this.value=='')this.value='Отчество';" data-required="true" />
+                            </p>
+                            <div class="tel_em">
+                                <p><b>Телефон:</b><br>
+                                    <input name="tel" type="text" style="border: 1px solid black;" autocomplete="OFF" value="Телефон" onFocus="if(this.value=='Телефон')this.value=''; " onBlur="if(this.value=='')this.value='Телефон';" data-required="true" />
+                                </p>
+                                <p><b>Email:</b><br>
+                                    <input name="email" type="text" style="border: 1px solid black;" autocomplete="OFF" value="Email" onFocus="if(this.value=='Email')this.value=''; " onBlur="if(this.value=='')this.value='Email';" data-required="true" />
+                                </p>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="PMC_send">
+                        <div class="PMC">
+                            <a href="#send"><button type="button" style="font-weight: bold;">Отправить</button></a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </form>
+
+        <div id="send" class="modal">
+            <div class="modal-dialog_send">
               <div class="modal-content">
                 <div class="modal-header">
-                    <a class="logo1"><img class="IMG-LOGO" src="./img/animal.png"/>TOP CRUIS</a>
                     <a href="#close" title="Close" class="close">×</a>
                 </div>
-                <h3 class="modal-title">Заявление на бронь</h3>
-                <div class="modal-body">    
-                    <ul>
-                        <p><b>Фамилия:</b><br>
-                            <input type="text" style="border: 1px solid black;">
-                        </p>
-                        <p><b>Имя:</b><br>
-                            <input type="text" style="border: 1px solid black;">
-                        </p>
-                        <p><b>Отчество:</b><br>
-                            <input class="telefon" type="text" style="border: 1px solid black;">
-                        </p>
-                        <div class="tel_em">
-                            <p><b>Телефон:</b><br>
-                                <input type="text" style="border: 1px solid black;">
-                            </p>
-                            <p><b>Email:</b><br>
-                                <input type="text" style="border: 1px solid black;">
-                            </p>
-                        </div>
-                    </ul>
-                </div>
-                <div class="PMC_send">
-                    <div class="PMC">
-                        <button type="button" style="font-weight: bold;">Отправить</button>  
-                    </div>
+                <p class="modal-title_send">Ваша заявка принята</p>
+                <div class="PMC_send1">
+                    <a href="#close1" title="Close" class="close1"><button type="button"><p>Ок</p></button></a>
                 </div>
               </div>
             </div>
-          </div>
+        </div>
 
         <div class="company">
             <div class="about_company text">
