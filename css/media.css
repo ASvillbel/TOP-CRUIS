@@ -333,6 +333,10 @@
         max-width: 300px;
         margin: 30px auto;
     }
+    .modal-dialog_send {
+        max-width: 300px;
+        margin: 30px auto;
+    }
     .logo1 {
         font-size: 14px;
     }
@@ -349,5 +353,33 @@
     .modal-body input {
         height: 25px;
         width: 220px;
+    }
+
+    .cards1 {
+        display: none;
+    }
+    .cards2 {
+        display: none;
+    }
+
+    .cards1_M {
+        display: block;
+    }
+    .cards2_M {
+        display: block;
+    }
+    .cards3_M {
+        display: block;
+    }
+
+    .cards1_M {
+        margin-top: 20px;
+    }
+    .cards2_M {
+        margin-top: -150px;
+    }
+    .cards3_M {
+        margin-top: -150px;
+        width: 200px;
     }
 }
