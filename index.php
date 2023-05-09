@@ -371,6 +371,7 @@ $note_text="Тема : Заявка с сайта \r\n Фамилия : $fam \r\
 if (isset($name)  &&  isset ($sab) ) {
 mail($address,$note_text,"Content-type:text/plain; windows-1251"); 
     
+    echo "<p style='color:green;'>Уважаемый(ая) <b style='color:red;'>$name</b> Ваше письмо отправленно успешно. <br> Спасибо. <br>Вам скоро ответят на почту <b style='color:red;'> $email</b>.</p>";
 }
 
 ?>
