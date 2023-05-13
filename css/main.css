@@ -1,5 +1,5 @@
 @import "./reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Damion&family=Playfair+Display:wght@400;700&family=Share:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Playfair+Display:wght@400;700&family=Share:wght@700&family=Wix+Madefor+Display&display=swap');
 body{
     color: #000;
     font-family: 'Damion', cursive;
@@ -99,7 +99,7 @@ body{
 
 .water p {
     font-size: 25px;
-    font-family: Playfair Display;
+    font-family: Wix Madefor Display;
     font-weight: 400;
     text-align: justify;
     text-indent: 60px;
@@ -226,22 +226,313 @@ padding: 90px 0;
     font-weight: 550;
     border: yellow;
 }
+.popular-cruis_button {
+    margin-top: 50px;
+}
 .MCruis {
     font-size: 18px;
-    margin-top: 10px;
-}
-
-
-.cards1 {
     margin-top: 20px;
 }
-.cards__body {
-    font-family: Share;
-    font-size: 16px;
+
+
+.cards4_M {
+    display: none;
+}
+.cards5_M {
+    display: none;
+}
+.cards6_M {
+    display: none;
+}
+.cards7_M {
+    display: none;
+}
+.cards1 {
+    margin-top: 40px;
+}
+.cards2 {
+    margin-top: -70px;
+}
+.cards3 {
+    margin-top: -70px;
+}
+.cards4 {
+    margin-top: -70px;
+}
+.cards__body_R {
+    font-family: Wix Madefor Display;
+    font-size: 17px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: -50px;
+}
+.cards__body_M {
+    font-family: Wix Madefor Display;
+    font-size: 17px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: -40px;
+}
+.cards__body_M1_new {
+    font-family: Wix Madefor Display;
+    font-size: 17px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: -35px;
+}
+.cards__body_M1 {
+    font-family: Wix Madefor Display;
+    font-size: 17px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: -35px;
+}
+.cards__body_M2_new {
+    font-family: Wix Madefor Display;
+    font-size: 17px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: 15px;
+}
+.cards__body_M2 {
+    font-family: Wix Madefor Display;
+    font-size: 17px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: 5px;
+}
+.cards__body_M3 {
+    font-family: Wix Madefor Display;
+    font-size: 17px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: -52px;
+}
+.cards__body_M4 {
+    font-family: Wix Madefor Display;
+    font-size: 17px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: 4px;
+}
+.cards__body_M5 {
+    font-family: Wix Madefor Display;
+    font-size: 17px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: -7px;
+}
+.cards__body_M6 {
+    font-family: Wix Madefor Display;
+    font-size: 17px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: -7px;
+}
+.cards__body_M7 {
+    font-family: Wix Madefor Display;
+    font-size: 17px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: -7px;
+}
+.cards__body_M p {
+    font-weight: 500;
+}
+.cards__body_M1_new p {
+    font-weight: 500;
+}
+.cards__body_M1 p {
+    font-weight: 500;
+}
+.cards__body_M2_new p {
+    font-weight: 500;
+}
+.cards__body_M2 p {
+    font-weight: 500;
+}
+.cards__body_M3 p {
+    font-weight: 500;
+}
+.cards__body_M4 p {
+    font-weight: 500;
+}
+.cards__body_M5 p {
+    font-weight: 500;
+}
+.cards__body_M6 p {
+    font-weight: 500;
+}
+.cards__body_M7 p {
+    font-weight: 500;
+}
+.cards__body_M a {
+    margin-left: 10px;
+}
+.cards__body_M1_new a {
+    margin-left: 10px;
+}
+.cards__body_M1 a {
+    margin-left: 10px;
+}
+.cards__body_M2_new a {
+    margin-left: 10px;
+}
+.cards__body_M2 a {
+    margin-left: 10px;
+}
+.cards__body_M3 a {
+    margin-left: 10px;
+}
+.cards__body_M4 a {
+    margin-left: 10px;
+}
+.cards__body_M5 a {
+    margin-left: 10px;
+}
+.cards__body_M6 a {
+    margin-left: 10px;
+}
+.cards__body_M7 a {
+    margin-left: 10px;
+}
+.cards__body_R a {
+    margin-left: 10px;
     font-weight: bold;
 }
-.cards__body p {
-    color: #00000065;
+.cards__body1_R a {
+    margin-left: 10px;
+}
+.cards__body2_R a {
+    margin-left: 10px;
+}
+.cards__body1_R {
+    font-family: Wix Madefor Display;
+    font-size: 17px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: -50px;
+}
+.cards__body1_R p {
+    font-weight: 500;
+}
+.cards__body2_R {
+    font-family: Wix Madefor Display;
+    font-size: 17px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: -3px;
+}
+.cards__body2_R p {
+    font-weight: 500;
+}
+.cards__body_R button {
+    border: 1px solid rgb(0, 225, 255);
+    background-color: rgb(0, 225, 255);
+    color: black;
+    max-width: 170px;
+    height: 35px;
+    margin-left: -10px;
+}
+.cards__body1_R button {
+    border: 1px solid rgb(0, 225, 255);
+    background-color: rgb(0, 225, 255);
+    color: black;
+    max-width: 170px;
+    height: 35px;
+    margin-left: -10px;
+}
+.cards__body2_R button {
+    border: 1px solid rgb(0, 225, 255);
+    background-color: rgb(0, 225, 255);
+    color: black;
+    max-width: 170px;
+    height: 35px;
+    margin-left: -10px;
+}
+.cards__body_M button {
+    border: 1px solid rgb(0, 225, 255);
+    background-color: rgb(0, 225, 255);
+    color: black;
+    max-width: 170px;
+    height: 35px;
+    margin-left: -10px;
+}
+.cards__body_M1_new button {
+    border: 1px solid rgb(0, 225, 255);
+    background-color: rgb(0, 225, 255);
+    color: black;
+    max-width: 170px;
+    height: 35px;
+    margin-left: -10px;
+}
+.cards__body_M1 button {
+    border: 1px solid rgb(0, 225, 255);
+    background-color: rgb(0, 225, 255);
+    color: black;
+    max-width: 170px;
+    height: 35px;
+    margin-left: -10px;
+}
+.cards__body_M2_new button {
+    border: 1px solid rgb(0, 225, 255);
+    background-color: rgb(0, 225, 255);
+    color: black;
+    max-width: 170px;
+    height: 35px;
+    margin-left: -10px;
+}
+.cards__body_M2 button {
+    border: 1px solid rgb(0, 225, 255);
+    background-color: rgb(0, 225, 255);
+    color: black;
+    max-width: 170px;
+    height: 35px;
+    margin-left: -10px;
+}
+.cards__body_M3 button {
+    border: 1px solid rgb(0, 225, 255);
+    background-color: rgb(0, 225, 255);
+    color: black;
+    max-width: 170px;
+    height: 35px;
+    margin-left: -10px;
+}
+.cards__body_M4 button {
+    border: 1px solid rgb(0, 225, 255);
+    background-color: rgb(0, 225, 255);
+    color: black;
+    max-width: 170px;
+    height: 35px;
+    margin-left: -10px;
+}
+.cards__body_M5 button {
+    border: 1px solid rgb(0, 225, 255);
+    background-color: rgb(0, 225, 255);
+    color: black;
+    max-width: 170px;
+    height: 35px;
+    margin-left: -10px;
+}
+.cards__body_M6 button {
+    border: 1px solid rgb(0, 225, 255);
+    background-color: rgb(0, 225, 255);
+    color: black;
+    max-width: 170px;
+    height: 35px;
+    margin-left: -10px;
+}
+.cards__body_M7 button {
+    border: 1px solid rgb(0, 225, 255);
+    background-color: rgb(0, 225, 255);
+    color: black;
+    max-width: 170px;
+    height: 35px;
+    margin-left: -10px;
+}
+.cards__body_R p {
+    color: #000000;
+    font-weight: 500;
 }
 .cards__row {
     max-width: 1180px;
@@ -255,26 +546,22 @@ padding: 90px 0;
     margin: 0 auto;
     display: flex;
 }
-.cards2 {
-    margin-top: 50px;
-}
 .cards__column {
     padding: 0 7px;
     height: 361px;
 }
 .cards__column1_1 {
     width: 280px;
-    padding: 0 7px;
     height: 361px;
 }
 .cards__column2_1 {
     width: 280px;
-    padding: 0 7px;
+    padding: 0 1px;
     height: 361px;
 }
 .cards__column3_1 {
     width: 280px;
-    padding: 0 7px;
+    padding: 0 1px;
     height: 361px;
 }
 .cards__column4_1 {
@@ -297,68 +584,68 @@ padding: 90px 0;
     padding: 0 7px;
     height: 361px;
 }
-.cards__image {
-    margin: 0px 0px 20px 0px;
-    padding: 0px 0px 58% 0px;
-    height: 206px;
-    overflow: hidden;
-    position: relative;
-}
 .cards__image1 {
-    width: 265px;
+    width: 200px;
     margin: 0px 0px 20px 0px;
     padding: 0px 0px 58% 0px;
-    height: 206px;
+    height: 200px;
     overflow: hidden;
     position: relative;
+    margin-left: 10px;
 }
 .cards__image2 {
-    width: 265px;
+    width: 200px;
     margin: 0px 0px 20px 0px;
     padding: 0px 0px 58% 0px;
-    height: 206px;
+    height: 200px;
     overflow: hidden;
     position: relative;
+    margin-left: 60px;
 }
 .cards__image3 {
-    width: 265px;
+    width: 200px;
     margin: 0px 0px 20px 0px;
     padding: 0px 0px 58% 0px;
-    height: 206px;
+    height: 200px;
     overflow: hidden;
     position: relative;
+    margin-left: 10px;
 }
 .cards__image4 {
-    width: 265px;
+    width: 200px;
     margin: 0px 0px 20px 0px;
     padding: 0px 0px 58% 0px;
-    height: 206px;
+    height: 200px;
     overflow: hidden;
     position: relative;
+    margin-left: 50px;
 }
 .cards__image5 {
-    width: 265px;
+    width: 200px;
     margin: 0px 0px 20px 0px;
     padding: 0px 0px 58% 0px;
-    height: 206px;
+    height: 200px;
     overflow: hidden;
     position: relative;
+    margin-left: 5px;
 }
 .cards__image6 {
-    width: 265px;
+    width: 200px;
     margin: 0px 0px 20px 0px;
     padding: 0px 0px 58% 0px;
-    height: 206px;
+    height: 200px;
     overflow: hidden;
     position: relative;
+    margin-left: 60px;
 }
 .cards__image7 {
-    width: 265px;
+    width: 200px;
     margin: 0px 0px 20px 0px;
     padding: 0px 0px 58% 0px;
-    height: 206px;
+    height: 200px;
     overflow: hidden;
     position: relative;
+    margin-left: 5px;
 }
 .cards__image1 img{
     width: 100%;
@@ -418,8 +705,11 @@ padding: 90px 0;
 }
 
 
-.company {
-    margin-top: 42px;
+.company_R {
+    margin-top: -70px;
+}
+.company_M {
+    margin-top: -70px;
 }
 .about_company {
     width: 1218px; 
@@ -443,7 +733,7 @@ padding: 90px 0;
     padding: 0 30px;
     margin: 0 auto;
     font-size: 25px;
-    font-family: Playfair Display;
+    font-family: Wix Madefor Display;
     font-weight: 400;
     color: #000;
     text-align: justify;
@@ -500,12 +790,12 @@ padding: 90px 0;
 }
 .otziv1_text {
     font-size: 17px;
-    font-family: Share;
+    font-family: Wix Madefor Display;
 }
 .otziv1_text h1 {
     font-weight: bold;
     font-size: 20px;
-    margin-top: 41px;
+    margin-top: 31px;
     margin-left: 21px;
 }
 .otziv1_text p {
@@ -537,12 +827,12 @@ padding: 90px 0;
 }
 .otziv2_text {
     font-size: 17px;
-    font-family: Share;
+    font-family: Wix Madefor Display;
 }
 .otziv2_text h1 {
     font-weight: bold;
     font-size: 20px;
-    margin-top: 41px;
+    margin-top: 31px;
     margin-left: 21px;
 }
 .otziv2_text p {
@@ -580,7 +870,7 @@ padding: 90px 0;
     width: 1218px; 
     height: 200px; 
     border:1px solid yellow; 
-    margin:auto; 
+    margin: auto; 
     background: yellow;
 }
 .consult_take b {
@@ -596,7 +886,7 @@ padding: 90px 0;
     font-family: Share;
 }
 .consult_text h1 {
-    margin-top: 61px;
+    margin-top: 60px;
     font-weight: bold;
     font-size: 32px;
 }
@@ -690,7 +980,10 @@ padding: 90px 0;
 
 
 .cards_R {
-    margin-top: 20px;
+    margin-top: 40px;
+}
+.cards_R1 {
+    margin-top: -70px;
 }
 
 
