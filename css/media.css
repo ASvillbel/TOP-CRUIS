@@ -150,46 +150,270 @@
     }
 
 
-    .cards__body {
+    .cards1 {
+        display: none;
+    }
+    .cards2 {
+        display: none;
+    }
+    .cards3 {
+        display: none;
+    }
+    .cards4 {
+        display: none;
+    }
+
+
+    .cards1_M {
+        display: block;
+    }
+    .cards2_M {
+        display: block;
+    }
+    .cards3_M {
+        display: block;
+    }
+    .cards4_M {
+        display: block;
+    }
+    .cards5_M {
+        display: block;
+    }
+    .cards6_M {
+        display: block;
+    }
+    .cards7_M {
+        display: block;
+    }
+
+
+    .cards_R {
+        margin-top: 25px;
+    }
+    .cards__item_R .cards__image2 {
+        margin-left: -435px;
+    }
+    .cards__body_R {
         font-size: 9px;
         margin-top: -15px;
     }
     .cards__image1 {
-        width: 130px;
-        height: 103px;
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
     }
     .cards__image2 {
-        width: 130px;
-        height: 103px;
+        width: 150px;
+        height: 150px;
+        margin-left: -400px;
+        margin-top: 220px;
     }
     .cards__image3 {
-        width: 130px;
-        height: 103px;
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        margin-top: 100px;
     }
     .cards__image4 {
-        width: 130px;
-        height: 103px;
+        width: 150px;
+        height: 150px;
     }
     .cards__image5 {
-        width: 130px;
-        height: 103px;
+        width: 150px;
+        height: 150px;
     }
     .cards__image6 {
-        width: 130px;
-        height: 103px;
+        width: 150px;
+        height: 150px;
     }
     .cards__image7 {
-        width: 130px;
-        height: 103px;
+        width: 150px;
+        height: 150px;
     }
     .cards2 {
         margin-top: -361px;
         margin-left: 583px;
     }
+    .cards__body1_R {
+        font-size: 15px;
+        margin-left: 40px;
+        margin-top: -4px;
+    }
+    .cards__body1_R a {
+        margin-left: 10px;
+    }
+    .cards__body1_R button {
+        width: 130px;
+        height: 25px;
+    }
+    .cards__body2_R {
+        font-size: 15px;
+        margin-left: -250px;
+        margin-top: 220px;
+    }
+    .cards__body2_R a {
+        margin-left: 10px;
+    }
+    .cards__body2_R button {
+        width: 130px;
+        height: 25px;
+    }
+    .cards__body_R {
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 105px;
+    }
+    .cards__body_R a {
+        margin-left: 10px;
+    }
+    .cards__body_R button {
+        width: 130px;
+        height: 25px;
+    }
 
 
-    .company {
-        margin-top: -130px;
+    .cards1_M .cards__image1 {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .cards2_M .cards__image1 {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .cards3_M .cards__image3 {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .cards4_M .cards__image4 {
+        width: 150px;
+        height: 150px;
+        margin-left: 15px;
+        margin-top: -100px;
+    }
+    .cards5_M .cards__image5 {
+        width: 150px;
+        height: 150px;
+        margin-left: 15px;
+        margin-top: -235px;
+    }
+    .cards6_M .cards__image6 {
+        width: 150px;
+        height: 150px;
+        margin-left: 15px;
+        margin-top: -370px;
+    }
+    .cards7_M .cards__image7 {
+        width: 150px;
+        height: 150px;
+        margin-left: 15px;
+        margin-top: -500px;
+    }
+
+    .cards__body_M1 {
+        font-size: 15px;
+        margin-left: -100px;
+        margin-top: 5px;
+    }
+    .cards__body_M1 a {
+        margin-left: 10px;
+    }
+    .cards__body_M1 button {
+        width: 130px;
+        height: 25px;
+    }
+
+    .cards__body_M2 {
+        font-size: 15px;
+        margin-left: -100px;
+        margin-top: 20px;
+    }
+    .cards__body_M2 a {
+        margin-left: 10px;
+    }
+    .cards__body_M2 button {
+        width: 130px;
+        height: 25px;
+    }
+
+    .cards__body_M3 {
+        font-size: 15px;
+        margin-left: 8px;
+        margin-top: 37px;
+    }
+    .cards__body_M3 a {
+        margin-left: 10px;
+    }
+    .cards__body_M3 button {
+        width: 130px;
+        height: 25px;
+    }
+
+    .cards__body_M4 {
+        font-size: 15px;
+        margin-left: -100px;
+        margin-top: -100px;
+    }
+    .cards__body_M4 a {
+        margin-left: 10px;
+    }
+    .cards__body_M4 button {
+        width: 130px;
+        height: 25px;
+    }
+
+    .cards__body_M5 {
+        font-size: 15px;
+        margin-left: -100px;
+        margin-top: -235px;
+    }
+    .cards__body_M5 a {
+        margin-left: 10px;
+    }
+    .cards__body_M5 button {
+        width: 130px;
+        height: 25px;
+    }
+
+    .cards__body_M6 {
+        font-size: 15px;
+        margin-left: -100px;
+        margin-top: -370px;
+    }
+    .cards__body_M6 a {
+        margin-left: 10px;
+    }
+    .cards__body_M6 button {
+        width: 130px;
+        height: 25px;
+    }
+
+    .cards__body_M7 {
+        font-size: 15px;
+        margin-left: -100px;
+        margin-top: -500px;
+    }
+    .cards__body_M7 a {
+        margin-left: 10px;
+    }
+    .cards__body_M7 button {
+        width: 130px;
+        height: 25px;
+        margin-bottom: -500px;
+    }
+
+
+
+    .company_M {
+        margin-top: -635px;
+    }
+    .company_R {
+        margin-top: -35px;
     }
     .about_company {
         width: 500px;
