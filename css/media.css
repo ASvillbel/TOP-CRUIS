@@ -1,8 +1,4 @@
 @media (max-width: 1180px) {
-    html, body {
-    /* Убирает прокрутку по горизонтале, для мобильной версии */
-    overflow-x: hidden;
-}
     .nav-list {
         display: none;
     }
@@ -55,10 +51,6 @@
 }
 
 @media (max-width: 320px) {
-    html, body {
-    /* Убирает прокрутку по горизонтале, для мобильной версии */
-    overflow-x: hidden;
-}
     .header-nav .logo {
         font-size: 21px;
         margin-top: -40px;
