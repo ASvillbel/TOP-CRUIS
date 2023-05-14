@@ -1,5 +1,9 @@
 @import "./reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Damion&family=Playfair+Display:wght@400;700&family=Share:wght@700&family=Wix+Madefor+Display&display=swap');
+html, body {
+    /* Убирает прокрутку по горизонтале, для мобильной версии */
+    overflow-x: hidden;
+}
 body{
     color: #000;
     font-family: 'Damion', cursive;
