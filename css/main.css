@@ -239,6 +239,17 @@ padding: 90px 0;
 }
 
 
+.cards_R1_M {
+    display: none;
+}
+.cards_R2_M {
+    display: none;
+}
+.cards_R3_M {
+    display: none;
+}
+
+
 .cards4_M {
     display: none;
 }
