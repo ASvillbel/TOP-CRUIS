@@ -1,4 +1,4 @@
-@media (max-width: 1180px) {
+@media only screen and (max-width: 1180px) {
     .nav-list {
         display: none;
     }
@@ -44,17 +44,17 @@
     }
 }
 
-@media (max-height: 189px) {
+@media only screen and (max-height: 189px) {
     .LOGO {
         height: 100%;
     }
 }
 
-@media (max-width: 400px) {
+@media only screen and (max-width: 480px) {
     .header-nav .logo {
         font-size: 21px;
         margin-top: -40px;
-        margin-left: 120px;
+        margin-left: 75px;
     }
     .nav-button {
         width: 33px;
@@ -109,28 +109,29 @@
         margin-top: 15px;
     }
     .service-card-img1 {
-        font-size: 18px;
-        margin-top: -47px;
+        font-size: 14px;
+        margin-top: -40px;
+        margin-left: 10px;
     }
     .service-card-img2 {
-        font-size: 18px;
-        margin-top: -47px;
-        margin-left: 15px;
+        font-size: 14px;
+        margin-top: -40px;
+        margin-left: 10px;
     }
     .service-card-img3 {
-        font-size: 18px;
-        margin-top: -47px;
-        margin-left: 15px;
+        font-size: 14px;
+        margin-top: -40px;
+        margin-left: 10px;
     }
     .service-card-img4 {
-        font-size: 18px;
-        margin-top: -47px;
-        margin-left: 15px;
+        font-size: 14px;
+        margin-top: -40px;
+        margin-left: 10px;
     }
     .service-card-img5 {
-        font-size: 18px;
-        margin-top: -47px;
-        margin-left: 15px;
+        font-size: 14px;
+        margin-top: -40px;
+        margin-left: 10px;
     }
 
 
@@ -141,15 +142,32 @@
         font-size: 23px;
     }
     .MCruis {
-        font-size: 15px;
+        font-size: 14px;
     }
     .MCruis button {
-        width: 150px;
+        width: 130px;
         height: 30px;
-        margin-left: 30px;
+        margin-left: 10px;
     }
 
 
+    .cards_R {
+        display: none;
+    }
+    .cards_R1 {
+        display: none;
+    }
+        
+    .cards_R1_M {
+        display: block;
+    }
+    .cards_R2_M {
+        display: block;
+    }
+    .cards_R3_M {
+        display: block;
+    }
+            
     .cards1 {
         display: none;
     }
@@ -197,16 +215,32 @@
         font-size: 9px;
         margin-top: -15px;
     }
-    .cards__image1 {
-        width: 150px;
-        height: 150px;
-        margin-left: 20px;
+
+
+    .cards__column1_1_R .cards__image1 {
+        width: 120px;
+        height: 120px;
+        margin-left: 80px;
+        margin-top: 20px;
     }
+    .cards__column2_1_R .cards__image1 {
+        width: 120px;
+        height: 120px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .cards__column3_1_R .cards__image3 {
+        width: 120px;
+        height: 120px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+
     .cards__image2 {
-        width: 150px;
-        height: 150px;
-        margin-left: -400px;
-        margin-top: 220px;
+        width: 120px;
+        height: 120px;
+        margin-left: 80px;
+        margin-top: 5px;
     }
     .cards__image3 {
         width: 150px;
@@ -234,37 +268,67 @@
         margin-top: -361px;
         margin-left: 583px;
     }
-    .cards__body1_R {
-        font-size: 15px;
-        margin-left: 40px;
-        margin-top: -4px;
+
+
+    .cards__body1_R_M {
+        font-size: 14px;
+        margin-left: -65px;
+        margin-top: 20px;
     }
-    .cards__body1_R a {
+    .cards__body1_R_M a {
+        margin-left: 30px;
+    }
+    .cards__body1_R_M p {
+        margin-top: -10px;
+    }
+    .cards__body1_R_M button {
+        width: 130px;
+        height: 25px;
+    }
+
+
+    .cards__body1_R {
+        font-size: 14px;
+        margin-left: -190px;
+        margin-top: 130px;
+    }
+    .cards__body1_R b {
         margin-left: 10px;
     }
     .cards__body1_R button {
         width: 130px;
         height: 25px;
     }
+
     .cards__body2_R {
-        font-size: 15px;
+        font-size: 14px;
         margin-left: -250px;
-        margin-top: 220px;
+        margin-top: 150px;
     }
     .cards__body2_R a {
-        margin-left: 10px;
+        margin-left: 30px;
+    }
+    .cards__body2_R p {
+        margin-top: -10px;
     }
     .cards__body2_R button {
         width: 130px;
         height: 25px;
     }
+
     .cards__body_R {
-        font-size: 15px;
-        margin-left: 10px;
-        margin-top: 105px;
+        font-size: 14px;
+        margin-left: -250px;
+        margin-top: 150px;
+    }
+    .cards__body_R b {
+        font-weight: bold;
     }
     .cards__body_R a {
-        margin-left: 10px;
+        margin-left: 30px;
+    }
+    .cards__body_R p {
+        margin-top: -10px;
     }
     .cards__body_R button {
         width: 130px;
@@ -272,56 +336,59 @@
     }
 
 
-    .cards1_M .cards__image1 {
-        width: 150px;
-        height: 150px;
-        margin-left: 20px;
+    .cards__column1_1_M .cards__image1 {
+        width: 120px;
+        height: 120px;
+        margin-left: 80px;
         margin-top: 5px;
     }
-    .cards2_M .cards__image1 {
-        width: 150px;
-        height: 150px;
-        margin-left: 20px;
-        margin-top: 20px;
+    .cards__column2_1_M .cards__image1 {
+        width: 120px;
+        height: 120px;
+        margin-left: 80px;
+        margin-top: 180px;
     }
-    .cards3_M .cards__image3 {
-        width: 150px;
-        height: 150px;
-        margin-left: 20px;
-        margin-top: 40px;
+    .cards__column3_1_M .cards__image3 {
+        width: 120px;
+        height: 120px;
+        margin-left: 80px;
+        margin-top: 180px;
     }
-    .cards4_M .cards__image4 {
-        width: 150px;
-        height: 150px;
-        margin-left: 15px;
-        margin-top: -100px;
+    .cards__column4_1_M .cards__image4 {
+        width: 120px;
+        height: 120px;
+        margin-left: 80px;
+        margin-top: 30px;
     }
-    .cards5_M .cards__image5 {
-        width: 150px;
-        height: 150px;
-        margin-left: 15px;
-        margin-top: -235px;
+    .cards__column5_1_M .cards__image5 {
+        width: 120px;
+        height: 120px;
+        margin-left: 80px;
+        margin-top: 15px;
     }
-    .cards6_M .cards__image6 {
-        width: 150px;
-        height: 150px;
-        margin-left: 15px;
-        margin-top: -370px;
+    .cards__column6_1_M .cards__image6 {
+        width: 120px;
+        height: 120px;
+        margin-left: 80px;
+        margin-top: 2px;
     }
-    .cards7_M .cards__image7 {
-        width: 150px;
-        height: 150px;
-        margin-left: 15px;
-        margin-top: -500px;
+    .cards__column7_1_M .cards__image7 {
+        width: 120px;
+        height: 120px;
+        margin-left: 80px;
+        margin-top: -18px;
     }
 
     .cards__body_M1 {
-        font-size: 15px;
-        margin-left: -100px;
-        margin-top: 5px;
+        font-size: 14px;
+        margin-left: -170px;
+        margin-top: 130px;
     }
     .cards__body_M1 a {
-        margin-left: 10px;
+        margin-left: 30px;
+    }
+    .cards__body_M1 p {
+        margin-top: -10px;
     }
     .cards__body_M1 button {
         width: 130px;
@@ -329,12 +396,15 @@
     }
 
     .cards__body_M2 {
-        font-size: 15px;
-        margin-left: -100px;
-        margin-top: 20px;
+        font-size: 14px;
+        margin-left: -170px;
+        margin-top: 305px;
     }
     .cards__body_M2 a {
-        margin-left: 10px;
+        margin-left: 30px;
+    }
+    .cards__body_M2 p {
+        margin-top: -10px;
     }
     .cards__body_M2 button {
         width: 130px;
@@ -342,12 +412,15 @@
     }
 
     .cards__body_M3 {
-        font-size: 15px;
-        margin-left: 8px;
-        margin-top: 37px;
+        font-size: 14px;
+        margin-left: -170px;
+        margin-top: 305px;
     }
     .cards__body_M3 a {
-        margin-left: 10px;
+        margin-left: 30px;
+    }
+    .cards__body_M3 p {
+        margin-top: -10px;
     }
     .cards__body_M3 button {
         width: 130px;
@@ -355,25 +428,47 @@
     }
 
     .cards__body_M4 {
-        font-size: 15px;
-        margin-left: -100px;
-        margin-top: -100px;
+        font-size: 14px;
+        margin-left: -150px;
+        margin-top: 155px;
     }
     .cards__body_M4 a {
-        margin-left: 10px;
+        margin-left: 30px;
+    }
+    .cards__body_M4 p {
+        margin-top: -10px;
     }
     .cards__body_M4 button {
         width: 130px;
         height: 25px;
     }
 
-    .cards__body_M5 {
-        font-size: 15px;
+    .cards__body_M4_NEW {
+        font-size: 14px;
         margin-left: -100px;
-        margin-top: -235px;
+        margin-top: 0px;
+    }
+    .cards__body_M4_NEW a {
+        margin-left: 30px;
+    }
+    .cards__body_M4_NEW p {
+        margin-top: -10px;
+    }
+    .cards__body_M4_NEW button {
+        width: 130px;
+        height: 25px;
+    }
+
+    .cards__body_M5 {
+        font-size: 14px;
+        margin-left: -250px;
+        margin-top: 140px;
     }
     .cards__body_M5 a {
-        margin-left: 10px;
+        margin-left: 30px;
+    }
+    .cards__body_M5 p {
+        margin-top: -10px;
     }
     .cards__body_M5 button {
         width: 130px;
@@ -381,12 +476,15 @@
     }
 
     .cards__body_M6 {
-        font-size: 15px;
-        margin-left: -100px;
-        margin-top: -370px;
+        font-size: 14px;
+        margin-left: -255px;
+        margin-top: 125px;
     }
     .cards__body_M6 a {
-        margin-left: 10px;
+        margin-left: 30px;
+    }
+    .cards__body_M6 p {
+        margin-top: -10px;
     }
     .cards__body_M6 button {
         width: 130px;
@@ -394,12 +492,15 @@
     }
 
     .cards__body_M7 {
-        font-size: 15px;
-        margin-left: -100px;
-        margin-top: -500px;
+        font-size: 14px;
+        margin-left: -255px;
+        margin-top: 105px;
     }
     .cards__body_M7 a {
-        margin-left: 10px;
+        margin-left: 30px;
+    }
+    .cards__body_M7 p {
+        margin-top: -10px;
     }
     .cards__body_M7 button {
         width: 130px;
@@ -410,10 +511,10 @@
 
 
     .company_M {
-        margin-top: -635px;
+        margin-top: -50px;
     }
     .company_R {
-        margin-top: -35px;
+        margin-top: 0px;
     }
     .about_company {
         width: 500px;
@@ -428,6 +529,18 @@
     }
 
 
+    .otziv {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+
+    .otziv1_text {
+        display: inline-block;
+    }
+    .otziv2_text {
+        display: inline-block;
+    }
+    }
     .otziv_font {
         width: 600px;
         height: 350px;
@@ -453,7 +566,7 @@
     }
     .otziv1_text h1 {
         font-size: 13px;
-        margin-top: 25px;
+        margin-top: 15px;
         margin-left: 15px;
     }
     .otziv1_text p {
@@ -478,7 +591,7 @@
     }
     .otziv2_text h1 {
         font-size: 13px;
-        margin-top: 25px;
+        margin-top: 15px;
         margin-left: 15px;
     }
     .otziv2_text p {
@@ -499,7 +612,7 @@
 
     .consult_take {
         width: 500px;
-        height: 140px;
+        height: 160px;
     }
     .consult_text h1 {
         display: none;
@@ -507,8 +620,9 @@
     .consult button {
         width: 160px;
         height: 30px;
-        margin-left: 300px;
+        margin-left: 0px;
         font-size: 12px;
+        margin-top: 60px;
     }
     .consult_text p {
         display: none;
@@ -521,7 +635,7 @@
     .consult_take a1 {
         display: block;
         font-size: 14px;
-        margin-top: -15px;
+        margin-top: -75px;
     }
 
 
