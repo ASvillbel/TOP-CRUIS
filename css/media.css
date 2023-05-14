@@ -1,0 +1,609 @@
+@media (max-width: 1180px) {
+    .nav-list {
+        display: none;
+    }
+    .nav-button {
+        position: absolute;
+        display: block;
+        z-index: 9;
+        top: 46px;
+        right: 30px;
+    }
+    .nav.open .nav-list {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+
+        z-index: 1;
+        padding: 46px 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+
+        font-size: 34px;
+        font-weight: 600px;
+    }
+    .nav.open .nav-list a {
+        color: black;
+    }
+    .nav.open .nav-list .PMC button {
+        display: none;
+    }
+
+    .header-content {
+        display: none;
+    }
+    .W {
+        margin-top: 25px;
+    }
+    .popular-cruis {
+        margin-top: 20px;
+    }
+}
+
+@media (max-height: 189px) {
+    .LOGO {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-nav .logo {
+        font-size: 21px;
+        margin-top: -40px;
+        margin-left: 120px;
+    }
+    .nav-button {
+        width: 33px;
+        height: 33px;
+        margin-top: -20px;
+        margin-left: -120px;
+    }
+    .header-nav img {
+        width: 25px;
+        height: 25px;
+    }
+
+
+    .W {
+        font-size: 23px;
+        margin-bottom: 5px;
+    }
+    .water p {
+        font-size: 16px;
+    }
+
+
+    .popular-cruis {
+        font-size: 23px;
+    }
+    .img1 {
+        width: 500px;
+        height: 200px;
+    }
+    .img2 {
+        width: 500px;
+        margin-left: 0px;
+        height: 200px;
+        margin-top: 15px;
+    }
+    .img3 {
+        width: 500px;
+        margin-left: 0px;
+        height: 200px;
+        margin-top: 15px;
+    }
+    .img4 {
+        width: 500px;
+        margin-left: 0px;
+        height: 200px;
+        margin-top: 15px;
+    }
+    .img5 {
+        width: 500px;
+        margin-left: 0px;
+        height: 200px;
+        margin-top: 15px;
+    }
+    .service-card-img1 {
+        font-size: 18px;
+        margin-top: -47px;
+    }
+    .service-card-img2 {
+        font-size: 18px;
+        margin-top: -47px;
+        margin-left: 15px;
+    }
+    .service-card-img3 {
+        font-size: 18px;
+        margin-top: -47px;
+        margin-left: 15px;
+    }
+    .service-card-img4 {
+        font-size: 18px;
+        margin-top: -47px;
+        margin-left: 15px;
+    }
+    .service-card-img5 {
+        font-size: 18px;
+        margin-top: -47px;
+        margin-left: 15px;
+    }
+
+
+    .popular-cruis_button {
+        margin-top: 25px;
+    }
+    .popular-cruis_button h1 {
+        font-size: 23px;
+    }
+    .MCruis {
+        font-size: 15px;
+    }
+    .MCruis button {
+        width: 150px;
+        height: 30px;
+        margin-left: 30px;
+    }
+
+
+    .cards1 {
+        display: none;
+    }
+    .cards2 {
+        display: none;
+    }
+    .cards3 {
+        display: none;
+    }
+    .cards4 {
+        display: none;
+    }
+
+
+    .cards1_M {
+        display: block;
+    }
+    .cards2_M {
+        display: block;
+    }
+    .cards3_M {
+        display: block;
+    }
+    .cards4_M {
+        display: block;
+    }
+    .cards5_M {
+        display: block;
+    }
+    .cards6_M {
+        display: block;
+    }
+    .cards7_M {
+        display: block;
+    }
+
+
+    .cards_R {
+        margin-top: 25px;
+    }
+    .cards__item_R .cards__image2 {
+        margin-left: -435px;
+    }
+    .cards__body_R {
+        font-size: 9px;
+        margin-top: -15px;
+    }
+    .cards__image1 {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+    }
+    .cards__image2 {
+        width: 150px;
+        height: 150px;
+        margin-left: -400px;
+        margin-top: 220px;
+    }
+    .cards__image3 {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+    .cards__image4 {
+        width: 150px;
+        height: 150px;
+    }
+    .cards__image5 {
+        width: 150px;
+        height: 150px;
+    }
+    .cards__image6 {
+        width: 150px;
+        height: 150px;
+    }
+    .cards__image7 {
+        width: 150px;
+        height: 150px;
+    }
+    .cards2 {
+        margin-top: -361px;
+        margin-left: 583px;
+    }
+    .cards__body1_R {
+        font-size: 15px;
+        margin-left: 40px;
+        margin-top: -4px;
+    }
+    .cards__body1_R a {
+        margin-left: 10px;
+    }
+    .cards__body1_R button {
+        width: 130px;
+        height: 25px;
+    }
+    .cards__body2_R {
+        font-size: 15px;
+        margin-left: -250px;
+        margin-top: 220px;
+    }
+    .cards__body2_R a {
+        margin-left: 10px;
+    }
+    .cards__body2_R button {
+        width: 130px;
+        height: 25px;
+    }
+    .cards__body_R {
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 105px;
+    }
+    .cards__body_R a {
+        margin-left: 10px;
+    }
+    .cards__body_R button {
+        width: 130px;
+        height: 25px;
+    }
+
+
+    .cards1_M .cards__image1 {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .cards2_M .cards__image1 {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .cards3_M .cards__image3 {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .cards4_M .cards__image4 {
+        width: 150px;
+        height: 150px;
+        margin-left: 15px;
+        margin-top: -100px;
+    }
+    .cards5_M .cards__image5 {
+        width: 150px;
+        height: 150px;
+        margin-left: 15px;
+        margin-top: -235px;
+    }
+    .cards6_M .cards__image6 {
+        width: 150px;
+        height: 150px;
+        margin-left: 15px;
+        margin-top: -370px;
+    }
+    .cards7_M .cards__image7 {
+        width: 150px;
+        height: 150px;
+        margin-left: 15px;
+        margin-top: -500px;
+    }
+
+    .cards__body_M1 {
+        font-size: 15px;
+        margin-left: -100px;
+        margin-top: 5px;
+    }
+    .cards__body_M1 a {
+        margin-left: 10px;
+    }
+    .cards__body_M1 button {
+        width: 130px;
+        height: 25px;
+    }
+
+    .cards__body_M2 {
+        font-size: 15px;
+        margin-left: -100px;
+        margin-top: 20px;
+    }
+    .cards__body_M2 a {
+        margin-left: 10px;
+    }
+    .cards__body_M2 button {
+        width: 130px;
+        height: 25px;
+    }
+
+    .cards__body_M3 {
+        font-size: 15px;
+        margin-left: 8px;
+        margin-top: 37px;
+    }
+    .cards__body_M3 a {
+        margin-left: 10px;
+    }
+    .cards__body_M3 button {
+        width: 130px;
+        height: 25px;
+    }
+
+    .cards__body_M4 {
+        font-size: 15px;
+        margin-left: -100px;
+        margin-top: -100px;
+    }
+    .cards__body_M4 a {
+        margin-left: 10px;
+    }
+    .cards__body_M4 button {
+        width: 130px;
+        height: 25px;
+    }
+
+    .cards__body_M5 {
+        font-size: 15px;
+        margin-left: -100px;
+        margin-top: -235px;
+    }
+    .cards__body_M5 a {
+        margin-left: 10px;
+    }
+    .cards__body_M5 button {
+        width: 130px;
+        height: 25px;
+    }
+
+    .cards__body_M6 {
+        font-size: 15px;
+        margin-left: -100px;
+        margin-top: -370px;
+    }
+    .cards__body_M6 a {
+        margin-left: 10px;
+    }
+    .cards__body_M6 button {
+        width: 130px;
+        height: 25px;
+    }
+
+    .cards__body_M7 {
+        font-size: 15px;
+        margin-left: -100px;
+        margin-top: -500px;
+    }
+    .cards__body_M7 a {
+        margin-left: 10px;
+    }
+    .cards__body_M7 button {
+        width: 130px;
+        height: 25px;
+        margin-bottom: -500px;
+    }
+
+
+
+    .company_M {
+        margin-top: -635px;
+    }
+    .company_R {
+        margin-top: -35px;
+    }
+    .about_company {
+        width: 500px;
+        height: 40px;
+        font-size: 23px;
+    }
+    .about_company p {
+        margin-top: -16px;
+    }
+    .company_text {
+        font-size: 16px;
+    }
+
+
+    .otziv_font {
+        width: 600px;
+        height: 350px;
+        margin-top: -10px;
+    }
+    .otzivD_text {
+        display: none;
+    }
+    .otzivM_text {
+        display: block;
+        font-size: 23px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .otziv_name {
+        display: none;
+    }
+    .otziv1 {
+        width: 250px;
+        height: 215px; 
+        margin-top: 20px;
+        margin-left: -460px;
+    }
+    .otziv1_text h1 {
+        font-size: 13px;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+    .otziv1_text p {
+        font-size: 11px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .otziv1_text img {
+        width: 30px;
+        height: 30px;
+        margin-top: -5px;
+        margin-left: 12px;
+    }
+    .otziv1_text a {
+        font-size: 13px;
+    }
+    .otziv2 {
+        width: 250px;
+        height: 215px; 
+        margin-top: 20px;
+        margin-left: -50px;
+    }
+    .otziv2_text h1 {
+        font-size: 13px;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+    .otziv2_text p {
+        font-size: 11px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .otziv2_text img {
+        width: 30px;
+        height: 30px;
+        margin-top: -5px;
+        margin-left: 12px;
+    }
+    .otziv2_text a {
+        font-size: 13px;
+    }
+
+
+    .consult_take {
+        width: 500px;
+        height: 140px;
+    }
+    .consult_text h1 {
+        display: none;
+    }
+    .consult button {
+        width: 160px;
+        height: 30px;
+        margin-left: 300px;
+        font-size: 12px;
+    }
+    .consult_text p {
+        display: none;
+    }
+    .consult_take b {
+        display: block;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .consult_take a1 {
+        display: block;
+        font-size: 14px;
+        margin-top: -15px;
+    }
+
+
+    .contact h1 {
+        font-size: 24px;
+        margin-top: -20px;
+    }
+    .contact p {
+        font-size: 17px;
+    }
+
+
+    .end p {
+        display: none;
+    }
+    .end b {
+        display: none;
+    }
+    .twitter a {
+        margin-left: -800px;
+    }
+    .instagram a {
+        margin-left: -750px;
+    }
+    .facebook a {
+        margin-left: -700px;
+    }
+
+
+
+
+    .modal-dialog {
+        max-width: 300px;
+        margin: 30px auto;
+    }
+    .modal-dialog_send {
+        max-width: 300px;
+        margin: 30px auto;
+    }
+    .logo1 {
+        font-size: 14px;
+    }
+    .logo1 img {
+        height: 17px;
+        width: 17px;
+    }
+    .modal-content h3 {
+        font-size: 20px
+    }
+    .modal-body {
+        margin-left: 30px;
+    }
+    .modal-body input {
+        height: 25px;
+        width: 220px;
+    }
+
+    .cards1 {
+        display: none;
+    }
+    .cards2 {
+        display: none;
+    }
+
+    .cards1_M {
+        display: block;
+    }
+    .cards2_M {
+        display: block;
+    }
+    .cards3_M {
+        display: block;
+    }
+
+    .cards1_M {
+        margin-top: 20px;
+    }
+    .cards2_M {
+        margin-top: -150px;
+    }
+    .cards3_M {
+        margin-top: -150px;
+        width: 200px;
+    }
+}
