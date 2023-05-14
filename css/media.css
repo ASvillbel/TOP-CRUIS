@@ -1,4 +1,8 @@
 @media (max-width: 1180px) {
+    html, body {
+    /* Убирает прокрутку по горизонтале, для мобильной версии */
+    overflow-x: hidden;
+}
     .nav-list {
         display: none;
     }
